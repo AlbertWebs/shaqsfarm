@@ -168,7 +168,7 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-4">
-                  <div class="logo"> <a href="#"> <img src="{{asset('theme/images/logo.png')}}" srcset="{{asset('theme/images/logo@2x.png')}}" alt="Image"> </a> </div>
+                  <div class="logo"> <a href="#"> <img src="{{asset('theme/images/logo.png')}}" srcset="{{asset('theme/images/logo.png')}}" alt="Image"> </a> </div>
                   <!-- end logo -->
                   <p>Wild flowers , plants and fungi are the life support for all our wildlife and their colour and character</p>
                </div>

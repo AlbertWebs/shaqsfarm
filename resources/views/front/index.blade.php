@@ -176,115 +176,9 @@
     <!-- end container -->
   </section>
   <!-- end content-section -->
-  <section class="content-section" data-background="#fbf7f4">
-    <div class="container">
-      <div class="section-title">
-        <figure> <img src="{{asset('theme/images/section-title-shape.png')}}" alt="Image"> </figure>
-        <h6>Presidential campaigns</h6>
-        <h2>Commitment to the Environment</h2>
-      </div>
-      <!-- end section-title -->
-    </div>
-    <!-- end container -->
-    <div class="carousel-image-box">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <figure> <img src="{{asset('theme/images/carousel-image01.jpg')}}" alt="Image"> </figure>
-          <div class="content"> <small>Dynamic  on using green</small>
-            <h5>Dynamic Guidance Dunescapes</h5>
-            <p>Dynamic Dunescapes is an exciting
-              and ambitious project, rejuvenating
-              some of England & Wales.</p>
-          </div>
-          <!-- end content -->
-        </div>
-        <!-- end swiper-slide -->
-        <div class="swiper-slide">
-          <figure> <img src="{{asset('theme/images/carousel-image02.jpg')}}" alt="Image"> </figure>
-          <div class="content"> <small>Guidance on using green</small>
-            <h5>Tips for Ripening your Fruit</h5>
-            <p>Rezilon herbicide uses the active ingredient indaziflam to target broadleaf and annual grass. </p>
-          </div>
-          <!-- end content -->
-        </div>
-        <!-- end swiper-slide -->
-        <div class="swiper-slide">
-          <figure> <img src="{{asset('theme/images/carousel-image03.jpg')}}" alt="Image"> </figure>
-          <div class="content"> <small>Guidance on using green</small>
-            <h5>Health Benefits of a Raw Food</h5>
-            <p>Wheat futures were lower overnight while corn and soybean futures were little changed.</p>
-          </div>
-          <!-- end content -->
-        </div>
-        <!-- end swiper-slide -->
-        <div class="swiper-slide">
-          <figure> <img src="{{asset('theme/images/carousel-image04.jpg')}}" alt="Image"> </figure>
-          <div class="content"> <small>Guidance on using green</small>
-            <h5>Superfoods you should be eating</h5>
-            <p>Farm managers, land brokers, appraisers, and other professionals note a modest decline.</p>
-          </div>
-          <!-- end content -->
-        </div>
-        <!-- end swiper-slide -->
-        <div class="swiper-slide">
-          <figure> <img src="{{asset('theme/images/carousel-image05.jpg')}}" alt="Image"> </figure>
-          <div class="content"> <small>Guidance on using green</small>
-            <h5>Fields of Corns Dunescapes</h5>
-            <p>Wheat futures were higher in overnight trading corn futures and soybean futures were little changed.</p>
-          </div>
-          <!-- end content -->
-        </div>
-        <!-- end swiper-slide -->
-        <div class="swiper-slide">
-          <figure> <img src="{{asset('theme/images/carousel-image06.jpg')}}" alt="Image"> </figure>
-          <div class="content"> <small>Guidance on using green</small>
-            <h5>Discipline Is the Name of the Game</h5>
-            <p>There will be opportunities to market your grain, and we want to encourage you to think about.</p>
-          </div>
-          <!-- end content -->
-        </div>
-        <!-- end swiper-slide -->
-      </div>
-      <!-- end swiper-wrapper -->
-      <div class="swiper-pagination"></div>
-      <!-- end swiper-pagination -->
-    </div>
-    <!-- end carousel-image-box -->
-  </section>
-  <section class="content-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="counter-box"> <span class="odometer" data-count="20000" data-status="yes">0</span>
-            <h6>Children connected to nature</h6>
-            <figure><img src="{{asset('theme/images/counter-icon.png')}}" alt="Image"></figure>
-          </div>
-          <!-- end counter-box -->
-        </div>
-        <!-- end col-4 -->
-        <div class="col-md-4">
-          <div class="counter-box"> <span class="odometer" data-count="3495" data-status="yes">0</span>
-            <h6>Unique species on our nature reserves</h6>
-            <figure><img src="{{asset('theme/images/counter-icon.png')}}" alt="Image"></figure>
-          </div>
-          <!-- end counter-box -->
-        </div>
-        <!-- end col-4 -->
-        <div class="col-md-4">
-          <div class="counter-box"> <span class="odometer" data-count="15800" data-status="yes">0</span>
-              <h6>Acres of meadow created or restored</h6>
-            <figure><img src="{{asset('theme/images/counter-icon.png')}}" alt="Image"></figure>
-          </div>
-          <!-- end counter-box -->
-        </div>
-        <!-- end col-4 -->
-      </div>
-      <!-- end row -->
-    </div>
-    <!-- end container -->
-  </section>
+
   <!-- end content-section -->
-  <section class="content-section no-bottom-spacing" data-background="{{asset('theme/images/section-image01.jpg')}}">
+  <section class="content-section no-bottom-spacing" style="background-image: url('uploads/pexels-snapwire-390025.jpg'); background-position: 50% 50%;">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-9">
@@ -295,7 +189,7 @@
               <li>
                 <figure><img src="{{asset('theme/images/icon08.png')}}" alt="Image"></figure>
                 <div class="content">
-                  <h6>Organic Fertiliser</h6>
+                  <h6>Farm Supplies</h6>
                   <p>vegetables from FreshDirect. Our farms
                     deliver to us daily, ensuring you only eat
                     the best of what's in season</p>
@@ -339,24 +233,21 @@
         <div class="col-12">
           <div class="section-title">
             <figure> <img src="{{asset('theme/images/section-title-shape.png')}}" alt="Image"> </figure>
-            <h6>Discover nature</h6>
+            <h6>Discover Venshaq Holdings Limited</h6>
             <h2>We have expertise in these areas</h2>
           </div>
           <!-- end section-title -->
         </div>
         <!-- end col-12 -->
         <div class="col-lg-8">
-          <figure class="side-image"> <img src="{{asset('theme/images/side-image01.jpg')}}" alt="Image"> </figure>
+          <figure class="side-image"> <img src="{{asset('uploads/pexels-julia-11715001.jpg')}}" alt="Image"> </figure>
         </div>
         <!-- end col-8 -->
         <div class="col-lg-4">
           <div class="side-content right">
-            <h5>Sustainability and
-              Climate Change</h5>
-            <p>Our agricultural background means we’re
-              equally at home meeting face-to-face with
-              farmers as we are engaging.</p>
-            <a href="#" class="custom-link">Learn More</a> </div>
+            <h5>Accelarating Sustainable Business Growth</h5>
+            <p>We partner with innovative leaders with unique ideas, strong management teams, and demonstrated ability to help us achieve our strategic goal of a maximum long term return to our shareholders.</p>
+            <a href="https://venshaq.com/" class="custom-link">Learn More</a> </div>
           <!-- end side-content -->
         </div>
         <!-- end col-4 -->
@@ -369,14 +260,31 @@
             <p>Largest independent provider of agricultural
               and environmental consultancy, rural development
               services and policy advice.</p>
-            <a href="#" class="custom-link">Learn More</a> </div>
+            <a href="" class="custom-link">Learn More</a> </div>
           <!-- end side-content -->
         </div>
         <!-- end col-4 -->
         <div class="col-lg-8">
-          <figure class="side-image"> <img src="{{asset('theme/images/side-image02.jpg')}}" alt="Image"> </figure>
+          <figure class="side-image"> <img src="{{asset('uploads/pexels-chris-f-5187233.jpg')}}" alt="Image"> </figure>
         </div>
         <!-- end col-8 -->
+        <div class="col-12 spacing-100"></div>
+        {{--  --}}
+        <!-- end spacing-100 -->
+        <!-- end col-4 -->
+        <div class="col-lg-8">
+            <figure class="side-image"> <img src="{{asset('uploads/pexels-cottonbro-studio-4911708.jpg')}}" alt="Image"> </figure>
+        </div>
+        <div class="col-lg-4">
+            <div class="side-content left">
+            <h5>Partner With Us</h5>
+            <p>We invest where we can attain the highest growth opportunities and advancements, by focussing our investments on businesses in Frontier Markets .</p>
+            <a href="" class="custom-link">Learn More</a> </div>
+            <!-- end side-content -->
+        </div>
+
+        <!-- end col-8 -->
+        {{--  --}}
       </div>
       <!-- end row -->
     </div>
@@ -470,104 +378,10 @@
     </div>
     <!-- end container -->
   </section>
-  <!-- end content-section -->
-  <section class="content-section" data-background="#009a4e">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="cd-horizontal-timeline">
-            <h2 class="title">The Openfield Timeline</h2>
-            <div class="timeline">
-              <div class="events-wrapper">
-                <div class="events">
-                  <ol>
-                    <li><a href="#0" data-date="01/01/2000" class="selected">2000</a></li>
-                    <li><a href="#0" data-date="01/01/2004">2004</a></li>
-                    <li><a href="#0" data-date="01/01/2008">2008</a></li>
-                    <li><a href="#0" data-date="01/01/2012">2012</a></li>
-                    <li><a href="#0" data-date="01/01/2016">2016</a></li>
-                    <li><a href="#0" data-date="01/01/2020">2020</a></li>
-                  </ol>
-                  <span class="filling-line" aria-hidden="true"></span> </div>
-                <!-- .events -->
-              </div>
-              <!-- .events-wrapper -->
 
-            </div>
-            <!-- end timeline -->
 
-            <div class="events-content">
-              <ol>
-                <li class="selected" data-date="01/01/2000">
-                  <div class="content">
-                    <h2>Farming in the Middle Ages</h2>
-                    <p> Farming improved in the Middle Ages.
-                      One big improvement was the heavy
-                      plow. Sometime. </p>
-                  </div>
-                  <!--end content -->
-                </li>
-                <li data-date="01/01/2004">
-                  <div class="content">
-                    <h2>Farming in the Middle Ages</h2>
-                    <p> Farming improved in the Middle Ages.
-                      One big improvement was the heavy
-                      plow. Sometime. </p>
-                  </div>
-                  <!--end content -->
-                </li>
-                <li data-date="01/01/2008">
-                  <div class="content">
-                    <h2>Farming in the Middle Ages</h2>
-                    <p> Farming improved in the Middle Ages.
-                      One big improvement was the heavy
-                      plow. Sometime. </p>
-                  </div>
-                  <!--end content -->
-                </li>
-                <li data-date="01/01/2012">
-                  <div class="content">
-                    <h2>Farming in the Middle Ages</h2>
-                    <p> Farming improved in the Middle Ages.
-                      One big improvement was the heavy
-                      plow. Sometime. </p>
-                  </div>
-                  <!--end content -->
-                </li>
-                <li data-date="01/01/2016">
-                  <div class="content">
-                    <h2>Farming in the Middle Ages</h2>
-                    <p> Farming improved in the Middle Ages.
-                      One big improvement was the heavy
-                      plow. Sometime. </p>
-                  </div>
-                  <!--end content -->
-                </li>
-                <li data-date="01/01/2020">
-                  <div class="content">
-                    <h2>Farming in the Middle Ages</h2>
-                    <p> Farming improved in the Middle Ages.
-                      One big improvement was the heavy
-                      plow. Sometime. </p>
-                  </div>
-                  <!--end content -->
-                </li>
-              </ol>
-            </div>
-            <!-- end events-content -->
-          </div>
-          <!-- end cd-horizontal-timeline -->
-        </div>
-        <!-- end col-12 -->
-      </div>
-      <!-- end row -->
-    </div>
-    <!-- end container -->
-  </section>
   <!-- end content-section -->
-  <div class="content-section timeline-image" data-background="{{asset('theme/images/timeline-image.jpg')}}"> </div>
-  <!-- end content-section -->
-  <section class="content-section" data-background="{{asset('theme/images/section-bg01.png')}}" data-stellar-background-ratio="1.2">
+  <section class="content-section"  data-stellar-background-ratio="1.2" data-background="#fbf7f4" style="background: rgb(251, 247, 244);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12">
@@ -608,7 +422,8 @@
             <p>Believes more precise and economical
               at the time of planting you are, more
               profitable you will be at the time. </p>
-            <a href="#" class="custom-link">Join the conversation</a> </div>
+            <a href="#" class="custom-link">Join the conversation</a>
+        </div>
           <!-- end latest-news -->
         </div>
         <!-- end col-4 -->
@@ -622,7 +437,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <div class="years-box"> <span>46</span>
+          <div class="years-box"> <span>4</span>
             <p>Years of experience for <br>
               agriculture industry</p>
           </div>
