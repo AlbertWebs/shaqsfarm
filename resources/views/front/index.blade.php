@@ -8,9 +8,9 @@
           <div class="slide-image" data-background="{{asset('uploads/pexels-cottonbro-studio-4911726.jpg')}}"></div>
           <!-- end slider-image -->
           <div class="slide-inner">
-            <h1>What’s Things in Season?</h1>
-            <p>Your Guide to Eating Seasonally</p>
-            <a href="#">SEE ALL TIPS</a> </div>
+            <h1>Available in all Season!</h1>
+            <p>We Farm Like The World Depends On it</p>
+            <a href="#">Learn More</a> </div>
           <!-- end slide-inner -->
         </div>
         <!-- end swiper-slide -->
@@ -18,9 +18,9 @@
           <div class="slide-image" data-background="{{asset('uploads/pexels-chris-f-5187233.jpg')}}"></div>
           <!-- end slider-image -->
           <div class="slide-inner">
-            <h1>What’s Things in Season?</h1>
-            <p>Your Guide to Eating Seasonally</p>
-            <a href="#">SEE ALL TIPS</a> </div>
+            <h1>Fresh From The Farm</h1>
+            <p></p>
+            <a href="#">Learn More</a> </div>
           <!-- end slide-inner -->
         </div>
         <!-- end swiper-slide -->
@@ -30,7 +30,7 @@
           <div class="slide-inner">
             <h1>What’s Things in Season?</h1>
             <p>Your Guide to Eating Seasonally</p>
-            <a href="#">SEE ALL TIPS</a> </div>
+            <a href="#">Learn More</a> </div>
           <!-- end slide-inner -->
         </div>
         <!-- end swiper-slide -->
