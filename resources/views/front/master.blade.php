@@ -127,30 +127,32 @@
          <div class="container">
             <div class="logo">
                 <a href="{{url('/')}}">
-                    <img src="{{asset('theme/images/logo.png')}}" srcset="{{asset('theme/images/logo.png')}}" alt="Shaqs Farm Limited">
+                    <img src="{{asset('uploads/logo.png')}}" srcset="{{asset('uploads/logo.png')}}" alt="Shaqs Farm Limited">
                 </a>
             </div>
             <!-- end logo -->
             <div class="site-menu">
                <ul>
                   <li>
-                     <a href="#">What We Offer</a>
+                     <a href="#">What's Green</a>
                      <ul>
-                        <li><a href="services-offers.html">Services and Offers </a></li>
-                        <li><a href="campaigns.html">Campaigns</a></li>
+                        <li><a href="#">Watermelon</a></li>
+                        <li><a href="#">Onions</a></li>
+                        <li><a href="#">Garlic</a></li>
                      </ul>
                   </li>
                   <li>
-                     <a href="#">Food & Farming</a>
+                     <a href="#">Animal Products</a>
                      <ul>
-                        <li><a href="explore-farming.html">Explore Farming</a></li>
-                        <li><a href="our-work.html">Our Work</a></li>
-                        <li><a href="farming-issues.html">Farming Issues</a></li>
+
+                        <li><a href="#">Chicken</a></li>
+                        <li><a href="#">Mbuzi</a></li>
+                        <li><a href="#">Sheep</a></li>
                      </ul>
                   </li>
                   <li><a href="news.html">News</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="{{url('/')}}/contact-us">Contact</a></li>
                </ul>
             </div>
             <!-- end site-menu -->
@@ -168,7 +170,7 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-4">
-                  <div class="logo"> <a href="#"> <img src="{{asset('theme/images/logo.png')}}" srcset="{{asset('theme/images/logo.png')}}" alt="Image"> </a> </div>
+                  <div class="logo"> <a href="#"> <img src="{{asset('uploads/logo-color.png')}}" srcset="{{asset('uploads/logo-color.png')}}" alt="Shaqs Farms"> </a> </div>
                   <!-- end logo -->
                   <p>Wild flowers , plants and fungi are the life support for all our wildlife and their colour and character</p>
                </div>
