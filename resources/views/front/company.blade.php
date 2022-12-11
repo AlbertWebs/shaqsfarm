@@ -18,8 +18,7 @@
           <div class="col-12">
              <div class="section-title text-left">
                 <h6>who we are</h6>
-                <h2>Beautiful landscapes and the farmers <br>
-                   who bring us our food
+                <h2>About Shaq's Farm
                 </h2>
              </div>
              <!-- end section-title -->
@@ -99,7 +98,7 @@
           <!-- end col-4 -->
           <div class="col-lg-4 col-md-6">
              <figure class="image-title-box">
-                <img src="{{asset('theme/images/image-title-box03.jpg')}}" alt="Image">
+                <img src="{{asset('theme/images/pexels-engin-akyurt-2894205.jpg')}}" alt="Image">
                 <figcaption>
                    <h4><a href="#">Purpose</a></h4>
                 </figcaption>
@@ -122,48 +121,37 @@
              <!-- end section-title -->
           </div>
           <!-- end col-12 -->
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
              <div class="circle-icon-box">
                 <figure><img src="{{asset('theme/images/circle-icon01.png')}}" alt="Image"></figure>
-                <p>We send you a decision
-                   in principle for you to
-                   accept
+                <p>
+                   Browse our catelogue,
                 </p>
              </div>
              <!-- end circle-icon-box -->
           </div>
           <!-- end col-3 -->
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
              <div class="circle-icon-box">
                 <figure><img src="{{asset('theme/images/circle-icon02.png')}}" alt="Image"></figure>
-                <p>We receive all information
-                   requested, including an
-                   impact.
+                <p>
+                    Give us a <a href="tel:">call</a> or Send us and <a href="mailto:info@shaqsfarm.com">email</a>
                 </p>
              </div>
              <!-- end circle-icon-box -->
           </div>
           <!-- end col-3 -->
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
              <div class="circle-icon-box">
-                <figure><img src="{{asset('theme/images/circle-icon03.png')}}" alt="Image"></figure>
-                <p>The loan completes
-                   and you receive funds of farmings
+                <figure><img src="{{asset('theme/images/icon04.png')}}" alt="Image"></figure>
+                <p>
+                    Shipping Arrangements & Delivery
                 </p>
              </div>
              <!-- end circle-icon-box -->
           </div>
           <!-- end col-3 -->
-          <div class="col-lg-3 col-md-6">
-             <div class="circle-icon-box">
-                <figure><img src="{{asset('theme/images/circle-icon04.png')}}" alt="Image"></figure>
-                <p>You build your business
-                   and repay or refinance
-                   our loan
-                </p>
-             </div>
-             <!-- end circle-icon-box -->
-          </div>
+
           <!-- end col-3 -->
        </div>
        <!-- end row -->
