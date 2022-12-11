@@ -84,24 +84,26 @@
             <div class="show-mobile">
                <div class="site-menu">
                   <ul>
-                     <li>
-                        <a href="#">What We Offer</a>
+                    <li>
+                        <a href="#">What's Green</a>
                         <ul>
-                           <li><a href="services-offers.html">Services and Offers </a></li>
-                           <li><a href="campaigns.html">Campaigns</a></li>
+                           <li><a href="#">Watermelon</a></li>
+                           <li><a href="#">Onions</a></li>
+                           <li><a href="#">Garlic</a></li>
                         </ul>
                      </li>
                      <li>
-                        <a href="#">Food & Farming</a>
+                        <a href="#">Animal Products</a>
                         <ul>
-                           <li><a href="explore-farming.html">Explore Farming</a></li>
-                           <li><a href="our-work.html">Our Work</a></li>
-                           <li><a href="farming-issues.html">Farming Issues</a></li>
+
+                           <li><a href="#">Chicken</a></li>
+                           <li><a href="#">Mbuzi</a></li>
+                           <li><a href="#">Sheep</a></li>
                         </ul>
                      </li>
                      <li><a href="news.html">News</a></li>
                      <li><a href="about.html">About</a></li>
-                     <li><a href="contact.html">Contact</a></li>
+                     <li><a href="{{url('/')}}/contact-us">Contact</a></li>
                   </ul>
                </div>
                <!-- end site-menu -->
