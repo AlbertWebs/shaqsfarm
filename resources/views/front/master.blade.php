@@ -53,11 +53,18 @@
       <!-- end search-box -->
       <aside class="side-widget">
          <div class="inner">
-            <div class="logo"> <a href="{{url('/')}}"><img src="{{asset('theme/images/logo.png')}}" alt="Image"></a> </div>
+            <div class="logo"> <a href="{{url('/')}}"><img src="{{asset('uploads/logo-color.png')}}" alt="Shaqs Farm"></a> </div>
             <!-- end logo -->
             <div class="hide-mobile">
-               <p>Wild flowers , plants and fungi are the life support for all our wildlife and their colour and character</p>
-               <figure class="gallery"><a href="{{asset('theme/images/slide02.jpg')}}" data-fancybox><img src="{{asset('theme/images/slide02.jpg')}}" alt="Image"></a><a href="{{asset('theme/images/slide03.jpg')}}" data-fancybox><img src="{{asset('theme/images/slide03.jpg')}}" alt="Image"></a></figure>
+               <p>
+                Shaqs Farm demonstrates leading environmental stewardship, makes optimal use of land under responsible farming practices, and values its reputation as an ethical food producer of national significance.
+               </p>
+               <figure class="gallery">
+                    <a href="{{asset('uploads/pexels-chris-f-5187233.jpg')}}" data-fancybox><img src="{{asset('uploads/pexels-chris-f-5187233.jpg')}}" alt="Image"></a>
+                    <a href="{{asset('uploads/pexels-cottonbro-studio-4911708.jpg')}}" data-fancybox><img src="{{asset('uploads/pexels-cottonbro-studio-4911708.jpg')}}" alt="Image"></a>
+                    <a href="{{asset('uploads/pexels-cottonbro-studio-4911726.jpg')}}" data-fancybox><img src="{{asset('uploads/pexels-cottonbro-studio-4911726.jpg')}}" alt="Image"></a>
+                    <a href="{{asset('uploads/pexels-julia-11715001.jpg')}}" data-fancybox><img src="{{asset('uploads/pexels-julia-11715001.jpg')}}" alt="Image"></a>
+                </figure>
                <h6 class="widget-title">CONTACT INFO</h6>
                <address class="address">
                   <p>+1 (202) 540 0134<br>
@@ -186,33 +193,39 @@
                <div class="footer-separator"></div>
                <!-- end footer-separator -->
                <div class="col-md-4">
-                  <h6 class="widget-title">WILD PLANTS</h6>
+                  <h6 class="widget-title">Discover Gardens</h6>
                   <ul class="footer-menu">
-                     <li>Discover Wild Plants</li>
-                     <li>Important Plant Areas</li>
-                     <li>Issues of Plants</li>
+                     <li>Watermelon</li>
+                     <li>Onions</li>
+                     <li>Garlic</li>
+                     <li>Banana</li>
+                     <li>Tomatoes</li>
                   </ul>
                </div>
                <!-- end col-4 -->
-               <div class="col-md-4">
-                  <h6 class="widget-title">NATURE REZERVES</h6>
+               <div class="col-md-3">
+                  <h6 class="widget-title">Discover Yards</h6>
                   <ul class="footer-menu">
-                     <li>Ranscombe Farm</li>
-                     <li>Munsary Peatlands</li>
-                     <li>Cae Blaen-dyffryn</li>
+                     <li>Chicken</li>
+                     <li>Kuku Kienyeji</li>
+                     <li>Eggs</li>
+                     <li>Mbuzi</li>
+                     <li>Kondoo</li>
                   </ul>
                </div>
                <!-- end col-4 -->
-               <div class="col-md-4">
+               <div class="col-md-5">
                   <h6 class="widget-title">CONTACT INFO</h6>
-                  <p> +1 (202) 540 0134<br>
-                     organic@shaqsfarm.com
+                  <p>
+                     <a style="color:#ffffff" href="tel:+1 (202) 540 0134"><span class="lni lni-mobile"></span> +1 (202) 540 0134</a><br>
+                     <a style="color:#ffffff" href="mailto:organic@shaqsfarm.com"><span class="lni lni-envelope"></span> organic@shaqsfarm.com</a><br>
+                     <a style="color:#ffffff" href="https://goo.gl/maps/WkhGnjY7vREuFNNi9"><span class="lni lni-map-marker"></span> Malik Heights, Ngong Road, Nairobi, Kenya</a>
                   </p>
                </div>
                <!-- end col-4 -->
                <div class="col-12">
                   <div class="footer-bottom">
-                     <span>Copyright © {{date('Y')}} Shaqs Farm | Venshaq Holdongs Limited</span>
+                     <span>Copyright © {{date('Y')}} Shaqs Farm | Venshaq Holdings Limited</span>
                      <span>Powered By <a href="http://designekta.com/">Designekta Studios</a></span>
                   </div>
                   <!-- end footer-bottom -->

@@ -4,7 +4,7 @@
 <header class="page-header" data-background="{{asset('theme/images/page-header-bg.jpg')}}" data-stellar-background-ratio="0.7">
     <div class="container">
        <h2>Contact</h2>
-       <p>Wild flowers, plants and fungi are the life support</p>
+       <p>We Love Organic, Try Us Today</p>
     </div>
     <!-- end container -->
     <div class="parallax-element" data-stellar-ratio="2"></div>
@@ -17,9 +17,9 @@
           <div class="col-12">
              <div class="section-title text-left">
                 <h6>Here's how you can get in touch</h6>
-                <h2>Whether you're a current Countryside <br>
-                   member or are thinking about joining <br>
-                   us, have a question.
+                <h2> Having Questions? <br>
+                   We would love to hear from you <br>
+                   Mail Us Today!.
                 </h2>
              </div>
              <!-- end section-title -->

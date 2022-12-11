@@ -55,10 +55,10 @@
           <div class="side-content left">
             <h2>Welcome to Shaq's Farm</h2>
             <h6>High Quality Organic Food Guaranteed</h6>
-            <p>Wild flowers , plants and fungi are the life support for
-              all our wildlife and their colour and character light up
-              our landscapes. But without our help , this priceless
-              natural heritage is in danger of being lost.</p>
+            <p>
+                Shaqs Farm demonstrates leading environmental stewardship, makes optimal use of land under responsible farming practices, and values its reputation as an ethical food producer of national significance. <br><br>
+                Shaqs Farm is committed to generating significant value for adjacent communities and to being equal opportunity employer of choice in the sector and region.
+            </p>
             <a href="#" class="custom-button">MORE INFORMATION</a> </div>
           <!-- end side-content -->
         </div>
