@@ -19,7 +19,7 @@
                 <h6>Here's how you can get in touch</h6>
                 <h2> Having Questions? <br>
                    We would love to hear from you <br>
-                   Mail Us Today!.
+                   Mail Us Today!
                 </h2>
              </div>
              <!-- end section-title -->

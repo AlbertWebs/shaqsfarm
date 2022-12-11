@@ -449,11 +449,11 @@
             <p>Despite slightly declining beef
               consumption rates in this country,
               beef is still what’s for dinner in many
-              American households. </p>
-            <figure><img src="{{asset('theme/images/avatar01.jpg')}}" alt="Image"></figure>
+              Kenyan households. </p>
+            <figure><img src="{{asset('uploads/199259143_4389625377747506_3043984032264076715_n.jpg')}}" alt="Image"></figure>
             <div class="infos">
-              <h6>Qlark Thomas</h6>
-              <small>— The FoodPrint of Beef</small> </div>
+              <h6>Albert Muhatia</h6>
+              <small>— Local Researcher</small> </div>
             <!-- end infos -->
           </div>
           <!-- end testimonial -->
@@ -472,29 +472,21 @@
           <div class="container">
             <h6>New Research</h6>
             <h2>Global Sustainability <br>
-              Goals Launched</h2>
+              Organic Tomatoes</h2>
             <a href="#" class="custom-button">More Information</a> </div>
           <!-- end container -->
         </div>
         <!-- end swiper-slide -->
         <div class="swiper-slide" data-background="{{asset('theme/images/highlight02.jpg')}}">
           <div class="container">
-            <h6>Fields Fermantation</h6>
-            <h2>For Better Soleil<br>
-              We Care All Fields</h2>
+            <h6>Agricultural Yards </h6>
+            <h2>We Support Our <br>
+                Government's Agenda</h2>
             <a href="#" class="custom-button">More Information</a> </div>
           <!-- end container -->
         </div>
         <!-- end swiper-slide -->
-        <div class="swiper-slide" data-background="{{asset('theme/images/highlight03.jpg')}}">
-          <div class="container">
-            <h6>Drink Opportuinities</h6>
-            <h2>Core Material of Wine<br>
-              Oct Black Grape</h2>
-            <a href="#" class="custom-button">More Information</a> </div>
-          <!-- end container -->
-        </div>
-        <!-- end swiper-slide -->
+
       </div>
       <!-- end swiper-wrapper -->
       <div class="custom-pagination"></div>

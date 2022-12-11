@@ -176,19 +176,22 @@
       <footer class="footer">
          <div class="container">
             <div class="row">
-               <div class="col-lg-4">
+               <div class="col-lg-6">
                   <div class="logo"> <a href="#"> <img src="{{asset('uploads/logo-color.png')}}" srcset="{{asset('uploads/logo-color.png')}}" alt="Shaqs Farms"> </a> </div>
                   <!-- end logo -->
-                  <p>Wild flowers , plants and fungi are the life support for all our wildlife and their colour and character</p>
+                  <p>
+                    Shaqs Farm demonstrates leading environmental stewardship, makes optimal use of land under responsible farming practices, and values its reputation as an ethical food producer of national significance.
+                  </p>
                </div>
                <!-- end col-4 -->
-               <div class="col-lg-8">
+               <div class="col-lg-6">
                   <h6 class="widget-title">OUR NEWSLETTER!</h6>
                   <form>
                      <input type="text" placeholder="enter your email address....">
                      <input type="submit" value="SUBSCRIBE">
                   </form>
                </div>
+               {{-- <hr> --}}
                <!-- end col-8 -->
                <div class="footer-separator"></div>
                <!-- end footer-separator -->
