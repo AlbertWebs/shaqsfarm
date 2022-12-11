@@ -28,8 +28,8 @@
           <div class="slide-image" data-background="{{asset('uploads/pexels-anna-shvets-5953800.jpg')}}"></div>
           <!-- end slider-image -->
           <div class="slide-inner">
-            <h1>What’s Things in Season?</h1>
-            <p>Your Guide to Eating Seasonally</p>
+            <h1>Goats Available in Plenty</h1>
+            {{-- <p>Your Guide to Eating Seasonally</p> --}}
             <a href="#">Learn More</a> </div>
           <!-- end slide-inner -->
         </div>

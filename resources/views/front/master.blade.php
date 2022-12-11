@@ -102,7 +102,7 @@
                         </ul>
                      </li>
                      <li><a href="news.html">News</a></li>
-                     <li><a href="about.html">About</a></li>
+                     <li><a href="{{url('/')}}/the-company">About</a></li>
                      <li><a href="{{url('/')}}/contact-us">Contact</a></li>
                   </ul>
                </div>
@@ -142,6 +142,7 @@
             <!-- end logo -->
             <div class="site-menu">
                <ul>
+                  <li><a href="{{url('/')}}">Home</a></li>
                   <li>
                      <a href="#">What's Green</a>
                      <ul>
@@ -159,8 +160,8 @@
                         <li><a href="#">Sheep</a></li>
                      </ul>
                   </li>
-                  <li><a href="news.html">News</a></li>
-                  <li><a href="about.html">About</a></li>
+
+                  <li><a href="{{url('/')}}/the-company">About</a></li>
                   <li><a href="{{url('/')}}/contact-us">Contact</a></li>
                </ul>
             </div>
