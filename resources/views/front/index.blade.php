@@ -59,7 +59,7 @@
                 Shaqs Farm demonstrates leading environmental stewardship, makes optimal use of land under responsible farming practices, and values its reputation as an ethical food producer of national significance. <br><br>
                 Shaqs Farm is committed to generating significant value for adjacent communities and to being equal opportunity employer of choice in the sector and region.
             </p>
-            <a href="#" class="custom-button">MORE INFORMATION</a> </div>
+            <a href="{{url('/')}}/the-company" class="custom-button">MORE INFORMATION</a> </div>
           <!-- end side-content -->
         </div>
         <!-- end col-6 -->
@@ -67,11 +67,11 @@
           <div class="side-slider">
             <div class="slider">
               <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="{{asset('theme/images/pexels-juliana-james-4258187-onion.jpg')}}" alt="Image"> </div>
+                <!-- end swiper-slide -->
+                <div class="swiper-slide"> <img src="{{asset('theme/images/pexels-lisa-gromova-7284760-waterMelons.jpg')}}" alt="Image"> </div>
+                <!-- end swiper-slide -->
                 <div class="swiper-slide"> <img src="{{asset('theme/images/side-slide01.jpg')}}" alt="Image"> </div>
-                <!-- end swiper-slide -->
-                {{-- <div class="swiper-slide"> <img src="{{asset('theme/images/side-slide02.jpg')}}" alt="Image"> </div> --}}
-                <!-- end swiper-slide -->
-                {{-- <div class="swiper-slide"> <img src="{{asset('theme/images/side-slide03.jpg')}}" alt="Image"> </div> --}}
                 <!-- end swiper-slide -->
               </div>
               <!-- end swiper-wrapper -->
@@ -96,9 +96,9 @@
       <div class="row">
         <div class="col-md-4">
           <div class="image-content-box">
-            <h5>Watermelon</h5>
+            <h5>Watermelons</h5>
             <figure>
-              <img src="{{asset('theme/images/image-box01.jpg')}}" alt="Image">
+              <img src="{{asset('theme/images/pexels-pixabay-59830.jpg')}}" alt="Image">
             </figure>
             <p>Square Roots is an urban farming
               accelerator that was started with
@@ -111,7 +111,7 @@
         <div class="col-md-4">
           <div class="image-content-box">
             <h5>Onions</h5>
-            <figure><img src="{{asset('theme/images/image-box02.jpg')}}" alt="Image"></figure>
+            <figure><img src="{{asset('theme/images/pexels-muhammad-khawar-nazir-12999831.jpg')}}" alt="Image"></figure>
             <p>Our high-tech vertical farms grow
               fresh microgreens, herbs & flowers
               Order online for local delivery.</p>
@@ -123,7 +123,7 @@
         <div class="col-md-4">
           <div class="image-content-box">
             <h5>Garlic</h5>
-            <figure><img src="{{asset('theme/images/image-box03.jpg')}}" alt="Image"></figure>
+            <figure><img src="{{asset('theme/images/pexels-nick-collins-1392590.jpg')}}" alt="Image"></figure>
             <p>Our high-tech vertical farms grow
               fresh microgreens, herbs & flowers
               Order online for local delivery.</p>
@@ -137,7 +137,7 @@
           <div class="image-content-box">
             <h5>Kuku Kienyeji</h5>
             <figure>
-              <img src="{{asset('theme/images/image-box01.jpg')}}" alt="Image">
+              <img src="{{asset('theme/images/pexels-samer-daboul-1216482.jpg')}}" alt="Image">
             </figure>
             <p>Square Roots is an urban farming
               accelerator that was started with
@@ -150,7 +150,7 @@
         <div class="col-md-4">
           <div class="image-content-box">
             <h5>Mbuzi Farm</h5>
-            <figure><img src="{{asset('theme/images/image-box02.jpg')}}" alt="Image"></figure>
+            <figure><img src="{{asset('theme/images/pexels-jonas-von-werne-1344000.jpg')}}" alt="Image"></figure>
             <p>Our high-tech vertical farms grow
               fresh microgreens, herbs & flowers
               Order online for local delivery.</p>
@@ -395,7 +395,7 @@
         <!-- end col-12 -->
         <div class="col-lg-4 col-md-6">
           <div class="latest-news">
-            <figure><img src="{{asset('theme/images/news01.jpg')}}" alt="Image"><span>Dec 26, 2020</span></figure>
+            <figure><img src="{{asset('theme/images/news01.jpg')}}" alt="Image"><span>Dec 26, 2022</span></figure>
             <h4>Farming, Food and You</h4>
             <p>The Consumer Hub provides a forum
               for consumers to share ideas, questions,
@@ -406,7 +406,7 @@
         <!-- end col-4 -->
         <div class="col-lg-4 col-md-6">
           <div class="latest-news">
-            <figure><img src="{{asset('theme/images/news02.jpg')}}" alt="Image"><span>Dec 26, 2020</span></figure>
+            <figure><img src="{{asset('theme/images/news02.jpg')}}" alt="Image"><span>Dec 26, 2022</span></figure>
             <h4>You Follow the Food?</h4>
             <p>Food that looks at how farmers and
               the food industry keep us fed during
@@ -417,7 +417,7 @@
         <!-- end col-4 -->
         <div class="col-lg-4">
           <div class="latest-news">
-            <figure><img src="{{asset('theme/images/news03.jpg')}}" alt="Image"><span>Dec 26, 2020</span></figure>
+            <figure><img src="{{asset('theme/images/news03.jpg')}}" alt="Image"><span>Dec 26, 2022</span></figure>
             <h4>Making Life Easier</h4>
             <p>Believes more precise and economical
               at the time of planting you are, more
