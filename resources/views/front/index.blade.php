@@ -190,9 +190,9 @@
                 <figure><img src="{{asset('theme/images/icon08.png')}}" alt="Image"></figure>
                 <div class="content">
                   <h6>Farm Supplies</h6>
-                  <p>vegetables from FreshDirect. Our farms
-                    deliver to us daily, ensuring you only eat
-                    the best of what's in season</p>
+                  <p>
+                    We deal in a wide range of organic Farm products like Chicken, Goat, Sheep, Eggs, Watermelons, Onions, Garlic, Tomatoes and Many More
+                  </p>
                 </div>
                 <!-- end content -->
               </li>
@@ -200,22 +200,13 @@
                 <figure><img src="{{asset('theme/images/icon09.png')}}" alt="Image"></figure>
                 <div class="content">
                   <h6>Farm Mechanization</h6>
-                  <p>vegetables from FreshDirect. Our farms
-                    deliver to us daily, ensuring you only eat
-                    the best of what's in season</p>
+                  <p>
+                    We supply a full range of technologically advanced, scientifically proven and environmentally sustainable products. The combination of our technical, consulting and innovative products ensure customers are provided solutions specifically tailored to meet their requirements.
+                  </p>
                 </div>
                 <!-- end content -->
               </li>
-              <li>
-                <figure><img src="{{asset('theme/images/icon10.png')}}" alt="Image"></figure>
-                <div class="content">
-                  <h6>Water Management</h6>
-                  <p>vegetables from FreshDirect. Our farms
-                    deliver to us daily, ensuring you only eat
-                    the best of what's in season</p>
-                </div>
-                <!-- end content -->
-              </li>
+
             </ul>
           </div>
           <!-- end services-list-box -->
@@ -291,7 +282,7 @@
     <!-- end container -->
   </section>
   <!-- end content-section -->
-  <section class="content-section no-top-spacing">
+  {{-- <section class="content-section no-top-spacing">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12">
@@ -377,7 +368,7 @@
       <!-- end row -->
     </div>
     <!-- end container -->
-  </section>
+  </section> --}}
 
 
   <!-- end content-section -->
@@ -388,7 +379,7 @@
           <div class="section-title">
             <figure> <img src="{{asset('theme/images/section-title-shape.png')}}" alt="Image"> </figure>
             <h6>Source of our food</h6>
-            <h2>Agricultural communities News</h2>
+            <h2>Agricultural News</h2>
           </div>
           <!-- end section-title -->
         </div>
