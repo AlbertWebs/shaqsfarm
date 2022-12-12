@@ -162,7 +162,7 @@
         <div class="col-md-4">
           <div class="image-content-box">
             <h5>Sheep Farm</h5>
-            <figure><img src="{{asset('theme/images/image-box03.jpg')}}" alt="Image"></figure>
+            <figure><img src="{{asset('theme/images/pexels-julia-11715001-sheep.jpg')}}" alt="Image"></figure>
             <p>Our high-tech vertical farms grow
               fresh microgreens, herbs & flowers
               Order online for local delivery.</p>
