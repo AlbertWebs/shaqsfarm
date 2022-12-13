@@ -328,11 +328,13 @@
           </div>
           <!-- end col-12 -->
           <div class="col-md-6">
-             <div class="icon-box left" style="min-height:380px;">
-                <figure><img src="{{asset('theme/images/icon08.png')}}" alt="Image"></figure>
+             <div class="icon-box left">
+                <figure><img src="{{asset('theme/images/icon01.png')}}" alt="Image"></figure>
                 <div class="content">
-                   <h6>Farm Supplies</h6>
-                   <p>We deal in a wide range of organic Farm products like Chicken, Goat, Sheep, Eggs, Watermelons, Onions, Garlic, Tomatoes and Many More
+                   <h6>Organic Fertiliser</h6>
+                   <p>Vegetables from fresh farming. Our farms
+                      deliver to us daily, ensuring you only eat
+                      the best of what's in season
                    </p>
                 </div>
                 <!-- end content -->
@@ -345,14 +347,46 @@
                 <figure><img src="{{asset('theme/images/icon02.png')}}" alt="Image"></figure>
                 <div class="content">
                    <h6>Farm Mechanization</h6>
-                   <p>We supply a full range of technologically advanced, scientifically proven and environmentally sustainable products. The combination of our technical, consulting and innovative products ensure customers are provided solutions specifically tailored to meet their requirements.
+                   <p>Vegetables from fresh farming. Our farms
+                      deliver to us daily, ensuring you only eat
+                      the best of what's in season
                    </p>
                 </div>
                 <!-- end content -->
              </div>
              <!-- end icon-box -->
           </div>
-
+          <!-- end col-6 -->
+          <div class="col-md-6">
+             <div class="icon-box left">
+                <figure><img src="{{asset('theme/images/icon03.png')}}" alt="Image"></figure>
+                <div class="content">
+                   <h6>Water Management</h6>
+                   <p>Vegetables from fresh farming. Our farms
+                      deliver to us daily, ensuring you only eat
+                      the best of what's in season
+                   </p>
+                </div>
+                <!-- end content -->
+             </div>
+             <!-- end icon-box -->
+          </div>
+          <!-- end col-6 -->
+          <div class="col-md-6">
+             <div class="icon-box left">
+                <figure><img src="{{asset('theme/images/icon04.png')}}" alt="Image"></figure>
+                <div class="content">
+                   <h6>Natural Farming</h6>
+                   <p>Vegetables from fresh farming. Our farms
+                      deliver to us daily, ensuring you only eat
+                      the best of what's in season
+                   </p>
+                </div>
+                <!-- end content -->
+             </div>
+             <!-- end icon-box -->
+          </div>
+          <!-- end col-6 -->
        </div>
        <!-- end row -->
     </div>
@@ -362,15 +396,27 @@
  <section class="content-section no-spacing">
     <ul class="gallery-grid">
        <li>
-          <figure style="border-radius:10px"><a href="{{asset('theme/images/gallery01.jpg')}}" data-fancybox><img src="{{asset('theme/images/gallery01.jpg')}}" alt="Image"></a></figure>
+          <figure><a href="{{asset('theme/images/gallery01.jpg')}}" data-fancybox><img src="{{asset('theme/images/gallery01.jpg')}}" alt="Image"></a></figure>
        </li>
        <!-- end li -->
        <li>
-          <figure style="border-radius:10px"><a href="{{asset('theme/images/gallery02.jpg')}}" data-fancybox><img src="{{asset('theme/images/gallery02.jpg')}}" alt="Image"></a></figure>
+          <figure><a href="{{asset('theme/images/gallery02.jpg')}}" data-fancybox><img src="{{asset('theme/images/gallery02.jpg')}}" alt="Image"></a></figure>
        </li>
        <!-- end li -->
        <li>
-          <figure style="border-radius:10px"><a href="{{asset('theme/images/gallery06.jpg')}}" data-fancybox><img src="{{asset('theme/images/gallery06.jpg')}}" alt="Image"></a></figure>
+          <figure><a href="{{asset('theme/images/gallery03.jpg')}}" data-fancybox><img src="{{asset('theme/images/gallery03.jpg')}}" alt="Image"></a></figure>
+       </li>
+       <!-- end li -->
+       <li>
+          <figure><a href="{{asset('theme/images/gallery04.jpg')}}" data-fancybox><img src="{{asset('theme/images/gallery04.jpg')}}" alt="Image"></a></figure>
+       </li>
+       <!-- end li -->
+       <li>
+          <figure><a href="{{asset('theme/images/gallery05.jpg')}}" data-fancybox><img src="{{asset('theme/images/gallery05.jpg')}}" alt="Image"></a></figure>
+       </li>
+       <!-- end li -->
+       <li>
+          <figure><a href="{{asset('theme/images/gallery06.jpg')}}" data-fancybox><img src="{{asset('theme/images/gallery06.jpg')}}" alt="Image"></a></figure>
        </li>
        <!-- end li -->
     </ul>

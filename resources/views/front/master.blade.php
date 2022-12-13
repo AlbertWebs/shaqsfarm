@@ -87,7 +87,13 @@
                     <li>
                         <a href="#">What's Green</a>
                         <ul>
-                           <li><a href="#">Watermelon</a></li>
+                            <?php
+                            $Products = DB::table('products')->where('category','1')->get();
+                        ?>
+                        @foreach ($Products as $product)
+                        <li><a href="{{url('/')}}/products/{{$product->slung}}">{{$product->title}}</a></li>
+                        @endforeach
+
                            <li><a href="#">Onions</a></li>
                            <li><a href="#">Garlic</a></li>
                         </ul>
@@ -96,7 +102,13 @@
                         <a href="#">Animal Products</a>
                         <ul>
 
-                           <li><a href="#">Chicken</a></li>
+                            <ul>
+                                <?php
+                                $Products = DB::table('products')->where('category','2')->get();
+                            ?>
+                            @foreach ($Products as $product)
+                            <li><a href="{{url('/')}}/products/{{$product->slung}}">{{$product->title}}</a></li>
+                            @endforeach
                            <li><a href="#">Mbuzi</a></li>
                            <li><a href="#">Sheep</a></li>
                         </ul>
@@ -146,18 +158,23 @@
                   <li>
                      <a href="#">What's Green</a>
                      <ul>
-                        <li><a href="#">Watermelon</a></li>
-                        <li><a href="#">Onions</a></li>
-                        <li><a href="#">Garlic</a></li>
+                        <?php
+                           $Products = DB::table('products')->where('category','1')->get();
+                        ?>
+                        @foreach ($Products as $product)
+                        <li><a href="{{url('/')}}/products/{{$product->slung}}">{{$product->title}}</a></li>
+                        @endforeach
                      </ul>
                   </li>
                   <li>
                      <a href="#">Animal Products</a>
                      <ul>
-
-                        <li><a href="#">Chicken</a></li>
-                        <li><a href="#">Mbuzi</a></li>
-                        <li><a href="#">Sheep</a></li>
+                        <?php
+                            $Products = DB::table('products')->where('category','2')->get();
+                        ?>
+                        @foreach ($Products as $product)
+                        <li><a href="{{url('/')}}/products/{{$product->slung}}">{{$product->title}}</a></li>
+                        @endforeach
                      </ul>
                   </li>
 
@@ -180,7 +197,11 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-6">
-                  <div class="logo"> <a href="#"> <img src="{{asset('uploads/logo-color.png')}}" srcset="{{asset('uploads/logo-color.png')}}" alt="Shaqs Farms"> </a> </div>
+                  <div class="logo">
+                        <a href="#">
+                            <img src="{{asset('uploads/logo.png')}}" srcset="{{asset('uploads/logo.png')}}" alt="Shaqs Farms">
+                        </a>
+                  </div>
                   <!-- end logo -->
                   <p>
                     Shaqs Farm demonstrates leading environmental stewardship, makes optimal use of land under responsible farming practices, and values its reputation as an ethical food producer of national significance.
@@ -201,22 +222,24 @@
                <div class="col-md-4">
                   <h6 class="widget-title">Discover Gardens</h6>
                   <ul class="footer-menu">
-                     <li>Watermelon</li>
-                     <li>Onions</li>
-                     <li>Garlic</li>
-                     <li>Banana</li>
-                     <li>Tomatoes</li>
+                    <?php
+                        $Products = DB::table('products')->where('category','1')->get();
+                    ?>
+                    @foreach ($Products as $product)
+                    <li>{{$product->title}}</li>
+                    @endforeach
                   </ul>
                </div>
                <!-- end col-4 -->
                <div class="col-md-3">
                   <h6 class="widget-title">Discover Yards</h6>
                   <ul class="footer-menu">
-                     <li>Chicken</li>
-                     <li>Kuku Kienyeji</li>
-                     <li>Eggs</li>
-                     <li>Mbuzi</li>
-                     <li>Kondoo</li>
+                    <?php
+                    $Products = DB::table('products')->where('category','2')->get();
+                ?>
+                @foreach ($Products as $product)
+                <li>{{$product->title}}</li>
+                @endforeach
                   </ul>
                </div>
                <!-- end col-4 -->
