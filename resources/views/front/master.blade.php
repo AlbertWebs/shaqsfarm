@@ -51,7 +51,7 @@
     <!--End of Tawk.to Script-->
    </head>
    <body>
-      <div class="preloader"> <img src="{{asset('theme/images/preloader.gif')}}" alt="Image"> </div>
+      {{-- <div class="preloader"> <img src="{{asset('theme/images/preloader.gif')}}" alt="Image"> </div> --}}
       <!-- end preloader -->
       <div class="page-transition"></div>
       <!-- end page-transition -->
