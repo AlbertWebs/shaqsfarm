@@ -28,4 +28,4 @@ Route::get('/terms-and-conditions', [App\Http\Controllers\HomeController::class,
 Route::get('/privacy-policy', [App\Http\Controllers\HomeController::class, 'policy'])->name('policy-page');
 
 // ShopRoutes
-Route::get('/fresh-farm-shop', [App\Http\Controllers\ShopController::class, 'index'])->name('index-page');
+Route::get('/fresh-from-the-farm', [App\Http\Controllers\ShopController::class, 'index'])->name('fresh-from-the-farm');

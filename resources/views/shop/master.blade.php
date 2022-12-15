@@ -86,7 +86,7 @@
             <div class="main-header__wrapper">
                 <div class="main-header__wrapper-inner">
                     <div class="main-header__logo">
-                        <a href="index.html"><img src="{{asset('uploads/logo-color.png')}}" alt=""></a>
+                        <a href="{{url('/')}}"><img src="{{asset('uploads/logo-color.png')}}" alt=""></a>
                     </div>
                     <div class="main-header__menu-box">
                         <div class="main-header__menu-box-top">
@@ -168,7 +168,7 @@
                                                         class="main-menu__search search-toggler icon-magnifying-glass"></a>
                                                 </div>
                                                 <div class="main-menu__cart-box">
-                                                    <a href="cart.html" class="main-menu__cart icon-shopping-cart"></a>
+                                                    <a href="{{url('/')}}/fresh-from-the-farm" class="main-menu__cart icon-shopping-cart"></a>
                                                 </div>
                                                 <div class="main-menu__btn-box">
                                                     <a href="contact.html" class="thm-btn main-menu__btn">Get Free Quote
@@ -329,7 +329,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="{{asset('shop/assets/images/resources/logo-2.png')}}" width="143"
+                <a href="{{url('/')}}" aria-label="logo image"><img src="{{asset('shop/assets/images/resources/logo-2.png')}}" width="143"
                         alt="" /></a>
             </div>
             <!-- /.logo-box -->

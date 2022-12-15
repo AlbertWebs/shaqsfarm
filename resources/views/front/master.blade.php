@@ -193,7 +193,7 @@
             <!-- end site-menu -->
             <div class="search-button"><i class="lni lni-search-alt"></i></div>
             <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" rel="stylesheet" />
-            <div class="search-buttons" onclick="window.location.href='{{url('/')}}/fresh-farm-shop'"><i class="fa fa-shopping-cart"></i></div>
+            <div class="search-buttons" onclick="window.location.href='{{url('/')}}/fresh-from-the-farm'"><i class="fa fa-shopping-cart"></i></div>
             <!-- end search-button -->
             <div class="hamburger-menu"> <span></span> <span></span> <span></span> </div>
             <!-- end hamburger-menu -->
