@@ -215,13 +215,13 @@
                   </p>
                </div>
                <!-- end col-4 -->
-               <div class="col-lg-6">
+               {{-- <div class="col-lg-6">
                   <h6 class="widget-title">OUR NEWSLETTER!</h6>
                   <form>
                      <input type="text" placeholder="enter your email address....">
                      <input type="submit" value="SUBSCRIBE">
                   </form>
-               </div>
+               </div> --}}
                {{-- <hr> --}}
                <!-- end col-8 -->
                <div class="footer-separator"></div>
