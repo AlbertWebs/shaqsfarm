@@ -63,6 +63,19 @@ class HomeController extends Controller
         }
     }
 
+    public function blog($slung)
+    {
+        $Blog = DB::table('blogs')->where('slung', $slung)->get();
+        foreach ($Blog as $key => $value) {
+            $title = "$value->title - Shaqs Farm Limited";
+            $url = url('/products');
+            $page = "blog";
+            $keywords = "";
+            return view('front.blog',compact('title','url','page','keywords','Blog'));
+        }
+    }
+
+
     public function sector()
     {
         $title = "Sectors - Shaqs Farm Limited";

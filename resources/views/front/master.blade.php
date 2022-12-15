@@ -4,8 +4,8 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="theme-color" content="#009a4e"/>
-      <title>Shaq's Farm | Kuku Kienyeji, Watermelon, Onions | Venshaq Holdings</title>
-      <meta name="author" content="Themezinho">
+      <title>{{$title}}</title>
+      <meta name="author" content="Designekta Studios">
       <meta name="description" content="For all kind of agriculture and organic food website">
       <meta name="keywords" content="shaqsfarm, agriculture, food, fruit, organic, veges, vegetable, soleil, water, nature, green, flour, bread, healty, diet, market">
       <!-- SOCIAL MEDIA META -->
@@ -14,7 +14,7 @@
       <meta property="og:site_name" content="shaqsfarm">
       <meta property="og:title" content="shaqsfarm">
       <meta property="og:type" content="website">
-      <meta property="og:url" content="http://www.themezinho.net/shaqsfarm">
+      <meta property="og:url" content="http://www.Designekta Studios.net/shaqsfarm">
       <!-- TWITTER META -->
       <meta name="twitter:card" content="summary">
       <meta name="twitter:site" content="@shaqsfarm">
@@ -36,6 +36,19 @@
       <link rel="stylesheet" href="{{asset('theme/css/odometer.min.css')}}">
       <link rel="stylesheet" href="{{asset('theme/css/bootstrap.min.css')}}">
       <link rel="stylesheet" href="{{asset('theme/css/style.css')}}">
+      <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/6388a5f9daff0e1306da6e54/1gj6sgmls';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+            })();
+        </script>
+    <!--End of Tawk.to Script-->
    </head>
    <body>
       <div class="preloader"> <img src="{{asset('theme/images/preloader.gif')}}" alt="Image"> </div>

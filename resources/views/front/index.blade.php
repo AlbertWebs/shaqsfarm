@@ -94,84 +94,21 @@
   <section class="content-section no-top-spacing">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <div class="image-content-box">
-            <h5>Watermelons</h5>
-            <figure>
-              <img src="{{asset('theme/images/pexels-pixabay-59830.jpg')}}" alt="Image">
-            </figure>
-            <p>Square Roots is an urban farming
-              accelerator that was started with
-              10 of Freight Farms</p>
+        <?php $Product = DB::table('products')->wherenotnull('position')->get(); ?>
+        @foreach ($Product as $item)
+        <div class="col-md-4" >
+            <div class="image-content-box"  style="margin-bottom: 10px">
+              <h5>{{$item->title}}</h5>
+              <figure>
+                <img src="{{url('/')}}/theme/images/{{$item->image}}" alt="Image">
+              </figure>
+              <p>{{$item->meta}}</p>
+              <a href="{{url('/')}}/products/{{$item->slung}}" class="custom-link">Learn More</a>
+            </div>
+            <!-- end image-content-box -->
           </div>
-          <!-- end image-content-box -->
-        </div>
-        <!-- end col-4 -->
-
-        <div class="col-md-4">
-          <div class="image-content-box">
-            <h5>Onions</h5>
-            <figure><img src="{{asset('theme/images/pexels-muhammad-khawar-nazir-12999831.jpg')}}" alt="Image"></figure>
-            <p>Our high-tech vertical farms grow
-              fresh microgreens, herbs & flowers
-              Order online for local delivery.</p>
-          </div>
-          <!-- end image-content-box -->
-        </div>
-        <!-- end col-4 -->
-
-        <div class="col-md-4">
-          <div class="image-content-box">
-            <h5>Garlic</h5>
-            <figure><img src="{{asset('theme/images/pexels-nick-collins-1392590.jpg')}}" alt="Image"></figure>
-            <p>Our high-tech vertical farms grow
-              fresh microgreens, herbs & flowers
-              Order online for local delivery.</p>
-          </div>
-          <!-- end image-content-box -->
-        </div>
-        <!-- end col-4 -->
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="image-content-box">
-            <h5>Kuku Kienyeji</h5>
-            <figure>
-              <img src="{{asset('theme/images/pexels-samer-daboul-1216482.jpg')}}" alt="Image">
-            </figure>
-            <p>Square Roots is an urban farming
-              accelerator that was started with
-              10 of Freight Farms</p>
-          </div>
-          <!-- end image-content-box -->
-        </div>
-        <!-- end col-4 -->
-
-        <div class="col-md-4">
-          <div class="image-content-box">
-            <h5>Mbuzi Farm</h5>
-            <figure><img src="{{asset('theme/images/pexels-jonas-von-werne-1344000.jpg')}}" alt="Image"></figure>
-            <p>Our high-tech vertical farms grow
-              fresh microgreens, herbs & flowers
-              Order online for local delivery.</p>
-          </div>
-          <!-- end image-content-box -->
-        </div>
-        <!-- end col-4 -->
-
-        <div class="col-md-4">
-          <div class="image-content-box">
-            <h5>Sheep Farm</h5>
-            <figure><img src="{{asset('theme/images/pexels-julia-11715001-sheep.jpg')}}" alt="Image"></figure>
-            <p>Our high-tech vertical farms grow
-              fresh microgreens, herbs & flowers
-              Order online for local delivery.</p>
-          </div>
-          <!-- end image-content-box -->
-        </div>
-        <!-- end col-4 -->
-      </div>
-      <!-- end row -->
+          <!-- end col-4 -->
+        @endforeach
     </div>
     <!-- end container -->
   </section>
@@ -384,38 +321,24 @@
           <!-- end section-title -->
         </div>
         <!-- end col-12 -->
-        <div class="col-lg-4 col-md-6">
-          <div class="latest-news">
-            <figure><img src="{{asset('theme/images/news01.jpg')}}" alt="Image"><span>Dec 26, 2022</span></figure>
-            <h4>Farming, Food and You</h4>
-            <p>The Consumer Hub provides a forum
-              for consumers to share ideas, questions,
-              and concerns about agriculture. </p>
-            <a href="#" class="custom-link">Join the conversation</a> </div>
-          <!-- end latest-news -->
-        </div>
-        <!-- end col-4 -->
-        <div class="col-lg-4 col-md-6">
-          <div class="latest-news">
-            <figure><img src="{{asset('theme/images/news02.jpg')}}" alt="Image"><span>Dec 26, 2022</span></figure>
-            <h4>You Follow the Food?</h4>
-            <p>Food that looks at how farmers and
-              the food industry keep us fed during
-              the pandemic. </p>
-            <a href="#" class="custom-link">Watch Now</a> </div>
-          <!-- end latest-news -->
-        </div>
-        <!-- end col-4 -->
-        <div class="col-lg-4">
-          <div class="latest-news">
-            <figure><img src="{{asset('theme/images/news03.jpg')}}" alt="Image"><span>Dec 26, 2022</span></figure>
-            <h4>Making Life Easier</h4>
-            <p>Believes more precise and economical
-              at the time of planting you are, more
-              profitable you will be at the time. </p>
-            <a href="#" class="custom-link">Join the conversation</a>
-        </div>
-          <!-- end latest-news -->
+        <?php
+           $News = DB::table('blogs')->get();
+        ?>
+
+        @foreach ($News as $news)
+        <div class="col-lg-6 col-md-6">
+            <div class="latest-news">
+              <figure><img style="min-height:440px" src="{{url('/')}}/theme/images/{{$news->image}}" alt="Image"><span>{{date('M D, Y', strtotime($news->created_at))}}</span></figure>
+              <h4>{{$news->title}}</h4>
+              <p>{{$news->meta}}</p>
+              <a href="{{url('/')}}/agricultural-news/{{$news->slung}}" class="custom-link">Learn More</a> </div>
+            <!-- end latest-news -->
+          </div>
+          <!-- end col-4 -->
+        @endforeach
+
+
+
         </div>
         <!-- end col-4 -->
       </div>
@@ -492,8 +415,7 @@
         <div class="col-12">
           <div class="section-title">
             <h6>Consultative partners</h6>
-            <h2>Partners who share their knowledge and <br>
-              experience in agriculture</h2>
+            <h2>Partners</h2>
           </div>
           <!-- end section-title -->
         </div>

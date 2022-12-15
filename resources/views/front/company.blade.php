@@ -384,8 +384,7 @@
           <div class="col-12">
              <div class="section-title">
                 <h6>Consultative partners</h6>
-                <h2>Partners who share their knowledge and <br>
-                   experience in agriculture
+                <h2>Partners
                 </h2>
              </div>
              <!-- end section-title -->
