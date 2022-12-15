@@ -374,7 +374,7 @@ a:hover {
 
 /* SIDE WIDGET */
 .side-widget {
-  width: 400px;
+  width: 300px;
   height: 100vh;
   max-width: 100%;
   display: flex;
