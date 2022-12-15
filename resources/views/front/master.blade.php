@@ -103,27 +103,21 @@
                             <?php
                             $Products = DB::table('products')->where('category','1')->get();
                         ?>
-                        @foreach ($Products as $product)
-                        <li><a href="{{url('/')}}/products/{{$product->slung}}">{{$product->title}}</a></li>
-                        @endforeach
-
-                           <li><a href="#">Onions</a></li>
-                           <li><a href="#">Garlic</a></li>
+                            @foreach ($Products as $product)
+                            <li><a href="{{url('/')}}/products/{{$product->slung}}">{{$product->title}}</a></li>
+                            @endforeach
                         </ul>
                      </li>
                      <li>
                         <a href="#">Animal Products</a>
                         <ul>
 
-                            <ul>
                                 <?php
                                 $Products = DB::table('products')->where('category','2')->get();
                             ?>
                             @foreach ($Products as $product)
                             <li><a href="{{url('/')}}/products/{{$product->slung}}">{{$product->title}}</a></li>
                             @endforeach
-                           <li><a href="#">Mbuzi</a></li>
-                           <li><a href="#">Sheep</a></li>
                         </ul>
                      </li>
                      <li><a href="news.html">News</a></li>
