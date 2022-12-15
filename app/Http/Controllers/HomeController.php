@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $title = "Shaqs Farm Limited - Human Resource Consultancy";
+        $title = "Onions, Tomato Farm, Watermelons in Nairobi - Shaq's Farm Limited";
         $url = url('/');
         $page = "home";
         $keywords = "Human Resource Solutions, Recruitment, Outsourcing, Selection and Placement,

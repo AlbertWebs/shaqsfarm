@@ -6,28 +6,28 @@
       <meta name="theme-color" content="#009a4e"/>
       <title>{{$title}}</title>
       <meta name="author" content="Designekta Studios">
-      <meta name="description" content="For all kind of agriculture and organic food website">
+      <meta name="description" content="Shaqs Farm demonstrates leading environmental stewardship, makes optimal use of land under responsible farming practices, and values its reputation as an ethical food producer of national significance.">
       <meta name="keywords" content="shaqsfarm, agriculture, food, fruit, organic, veges, vegetable, soleil, water, nature, green, flour, bread, healty, diet, market">
       <!-- SOCIAL MEDIA META -->
-      <meta property="og:description" content="shaqsfarm | Agriculture Farming Foundation">
-      <meta property="og:image" content="preview.html">
-      <meta property="og:site_name" content="shaqsfarm">
-      <meta property="og:title" content="shaqsfarm">
+      <meta property="og:description" content="Shaqs Farm demonstrates leading environmental stewardship, makes optimal use of land under responsible farming practices, and values its reputation as an ethical food producer of national significance.">
+      <meta property="og:image" content="{{url('/')}}/uploads/favicon.png">
+      <meta property="og:site_name" content="Shaqs Farm">
+      <meta property="og:title" content="{{$title}}">
       <meta property="og:type" content="website">
-      <meta property="og:url" content="http://www.Designekta Studios.net/shaqsfarm">
+      <meta property="og:url" content="{{url('/')}}">
       <!-- TWITTER META -->
       <meta name="twitter:card" content="summary">
       <meta name="twitter:site" content="@shaqsfarm">
       <meta name="twitter:creator" content="@shaqsfarm">
       <meta name="twitter:title" content="shaqsfarm">
       <meta name="twitter:description" content="shaqsfarm | Agriculture Farming Foundation">
-      <meta name="twitter:image" content="preview.html">
+      <meta name="twitter:image" content="{{url('/')}}/uploads/favicon.png">
       <!-- FAVICON FILES -->
-      <link href="{{asset('theme/ico/apple-touch-icon-144-precomposed.png')}}" rel="apple-touch-icon" sizes="144x144">
-      <link href="{{asset('theme/ico/apple-touch-icon-114-precomposed.png')}}" rel="apple-touch-icon" sizes="114x114">
-      <link href="{{asset('theme/ico/apple-touch-icon-72-precomposed.png')}}" rel="apple-touch-icon" sizes="72x72">
-      <link href="{{asset('theme/ico/apple-touch-icon-57-precomposed.png')}}" rel="apple-touch-icon">
-      <link href="{{asset('theme/ico/favicon.png')}}" rel="shortcut icon">
+      <link href="{{url('/')}}/uploads/favicon.png" rel="apple-touch-icon" sizes="144x144">
+      <link href="{{url('/')}}/uploads/favicon.png" rel="apple-touch-icon" sizes="114x114">
+      <link href="{{url('/')}}/uploads/favicon.png" rel="apple-touch-icon" sizes="72x72">
+      <link href="{{url('/')}}/uploads/favicon.png" rel="apple-touch-icon">
+      <link href="{{url('/')}}/uploads/favicon.png" rel="shortcut icon">
       <!-- CSS FILES -->
       <link rel="stylesheet" href="{{asset('theme/css/lineicons.css')}}">
       <link rel="stylesheet" href="{{asset('theme/css/timeline.css')}}">
