@@ -5,7 +5,17 @@
     <div class="main-slider">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="slide-image" data-background="{{asset('uploads/pexels-cottonbro-studio-4911726.jpg')}}"></div>
+            <div class="slide-image" data-background="{{asset('uploads/pexels-nicolae-holbea-5685910.jpg')}}"></div>
+            <!-- end slider-image -->
+            <div class="slide-inner">
+              <h1>Fresh Tomatoes</h1>
+              {{-- <p>Your Guide to Eating Seasonally</p> --}}
+              <a href="#">Learn More</a> </div>
+            <!-- end slide-inner -->
+          </div>
+          <!-- end swiper-slide -->
+        <div class="swiper-slide">
+          <div class="slide-image" data-background="{{asset('uploads/Chicken.jpg')}}"></div>
           <!-- end slider-image -->
           <div class="slide-inner">
             <h1>Available in all Season!</h1>
@@ -20,16 +30,6 @@
           <div class="slide-inner">
             <h1>Fresh From The Farm</h1>
             <p></p>
-            <a href="#">Learn More</a> </div>
-          <!-- end slide-inner -->
-        </div>
-        <!-- end swiper-slide -->
-        <div class="swiper-slide">
-          <div class="slide-image" data-background="{{asset('uploads/pexels-anna-shvets-5953800.jpg')}}"></div>
-          <!-- end slider-image -->
-          <div class="slide-inner">
-            <h1>Goats Available in Plenty</h1>
-            {{-- <p>Your Guide to Eating Seasonally</p> --}}
             <a href="#">Learn More</a> </div>
           <!-- end slide-inner -->
         </div>
