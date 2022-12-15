@@ -20,12 +20,12 @@ Route::get('/the-sectors', [App\Http\Controllers\HomeController::class, 'sector'
 Route::get('/products/{slung}', [App\Http\Controllers\HomeController::class, 'services'])->name('services-page');
 Route::get('/portfolio', [App\Http\Controllers\HomeController::class, 'portfolio'])->name('portfolio-page');
 Route::get('/gallery', [App\Http\Controllers\HomeController::class, 'gallery'])->name('gallery-page');
-
 Route::get('/services/slung', [App\Http\Controllers\HomeController::class, 'service'])->name('service-page');
 Route::get('/agricultural-news/{slung}', [App\Http\Controllers\HomeController::class, 'blog'])->name('blog');
-
 Route::get('/products/{slung}', [App\Http\Controllers\HomeController::class, 'product'])->name('products-page');
-
 Route::get('/copyright-statement', [App\Http\Controllers\HomeController::class, 'copyright'])->name('copyright-page');
 Route::get('/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'terms'])->name('terms-page');
 Route::get('/privacy-policy', [App\Http\Controllers\HomeController::class, 'policy'])->name('policy-page');
+
+// ShopRoutes
+Route::get('/fresh-farm-shop', [App\Http\Controllers\ShopController::class, 'index'])->name('index-page');

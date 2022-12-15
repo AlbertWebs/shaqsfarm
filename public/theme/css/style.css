@@ -713,6 +713,11 @@ a:hover {
   font-size: 22px;
   cursor: pointer;
 }
+.navbar .search-buttons {
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+  }
 .navbar .hamburger-menu {
   display: inline-block;
   z-index: 99999999;
@@ -818,10 +823,12 @@ a:hover {
   -ms-transition: all .35s ease-in-out;
   -o-transition: all .35s ease-in-out;
   transition: all .35s ease-in-out;
+  display: none;
 }
 .header .button-prev:hover {
   background: #fbc50b;
   border-color: transparent;
+
 }
 .header .button-next {
   width: 60px;
@@ -842,6 +849,7 @@ a:hover {
   -ms-transition: all .35s ease-in-out;
   -o-transition: all .35s ease-in-out;
   transition: all .35s ease-in-out;
+  display: none;
 }
 .header .button-next:hover {
   background: #fbc50b;
@@ -2677,6 +2685,10 @@ a:hover {
   }
 
   .navbar .search-button {
+    margin-left: auto;
+  }
+
+  .navbar .search-buttons {
     margin-left: auto;
   }
 
