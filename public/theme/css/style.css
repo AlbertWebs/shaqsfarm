@@ -714,6 +714,7 @@ a:hover {
 }
 .navbar .hamburger-menu {
   display: inline-block;
+  z-index: 99999;
 }
 
 /* HEADER */

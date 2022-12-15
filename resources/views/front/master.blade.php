@@ -97,6 +97,7 @@
             <div class="show-mobile">
                <div class="site-menu">
                   <ul>
+                    <li><a href="{{url('/')}}">Home</a></li>
                     <li>
                         <a href="#">What's Green</a>
                         <ul>
