@@ -34,6 +34,18 @@
           <!-- end slide-inner -->
         </div>
         <!-- end swiper-slide -->
+        <div class="swiper-slide">
+            <div class="slide-image" data-background="{{asset('uploads/onion-farming.jpg')}}"></div>
+            <!-- end slider-image -->
+            <div class="slide-inner">
+              <h1>Fresh From The Farm</h1>
+              <p></p>
+              <a href="#">Learn More</a> </div>
+            <!-- end slide-inner -->
+        </div>
+        <!-- end swiper-slide -->
+
+
       </div>
       <!-- end swiper-wrapper -->
       <div class="button-prev"><i class="lni lni-chevron-left"></i></div>
