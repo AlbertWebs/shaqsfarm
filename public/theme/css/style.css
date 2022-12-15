@@ -176,6 +176,7 @@ a:hover {
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   cursor: pointer;
+  z-index: 99999999;
 }
 
 .hamburger-menu span {
@@ -714,7 +715,7 @@ a:hover {
 }
 .navbar .hamburger-menu {
   display: inline-block;
-  z-index: 99999;
+  z-index: 99999999;
 }
 
 /* HEADER */
