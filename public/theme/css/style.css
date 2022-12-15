@@ -374,7 +374,7 @@ a:hover {
 
 /* SIDE WIDGET */
 .side-widget {
-  width: 300px;
+  width: 400px;
   height: 100vh;
   max-width: 100%;
   display: flex;
@@ -2874,3 +2874,10 @@ a:hover {
     margin-left: 0;
   }
 }
+
+@media only screen and (max-width: 767px) {
+    .side-widget {
+        width: 300px;
+    }
+}
+
