@@ -25,7 +25,7 @@
         </div>
         <!-- end swiper-slide -->
         <div class="swiper-slide">
-          <div class="slide-image" data-background="{{asset('uploads/pexels-chris-f-5187233.jpg')}}"></div>
+          <div class="slide-image" data-background="{{asset('theme/images/highlight02.jpg')}}"></div>
           <!-- end slider-image -->
           <div class="slide-inner">
             <h1>Fresh From The Farm</h1>
